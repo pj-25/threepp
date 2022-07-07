@@ -1,0 +1,47 @@
+{
+  "name": "threepp",
+  "version": "1.0.0",
+  "description": "Three++ extends threejs library with dat.gui to provide enhanced scene(viewport), interactive objects, property controllers ....",
+  "main": "./dist/threepp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.139.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pj-25/threepp.git"
+  },
+  "keywords": [
+    "threepp",
+    "three.js",
+    "3d",
+    "javascript",
+    "webgl",
+    "webgl2",
+    "dat.gui",
+    "3d-viewport"
+  ],
+  "author": "JoshiPrashant <joshiprashant.jp25@gmail.com> (https://github.com/pj-25)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pj-25/threepp/issues"
+  },
+  "homepage": "https://github.com/pj-25/threepp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.0.0-alpha.7",
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}
